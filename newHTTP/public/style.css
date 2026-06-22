@@ -1,0 +1,17 @@
+body {
+    background-color: #c7d8e9;
+    font-family: sams-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1{
+    color: #ee072a;
+}
+
+.section-divider{
+    margin: 40px 0;
+    border: 0;
+    border-top: 1px solid #75c966;
+
+}

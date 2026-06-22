@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+
+    </head>
+    <body>
+        <h1>
+            Look! A Fully Styled Custom Server!
+        </h1>
+        <p>This page is using an external CSS file served dynamically.</p>
+        <a href="/about.html"> Go to About Page</a>
+        <hr class="section-divider">
+        <h2>Submit Your Name to the server</h2>
+        <form action="/submit" method="POST">
+            <input type="text" name="username" placeholder="Enter your name" required>
+            <button type="submit"> Submit Name</button>
+        </form>
+        <br>
+        <a href="/users"> View Registered Users Directory</a>
+    </body>
+</html>
